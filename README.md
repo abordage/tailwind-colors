@@ -4,25 +4,22 @@ The `/dist/tailwind-colors.css` file already contains the generated palette for 
 
 1. Copy `tailwind-colors.css` to public dir (e.g. `css/tailwind-colors.css`) or set your `webpack.mix.js` | `vite.config.ts` for copy
 2. Include styles in a file `resources/views/vendor/nova/partials/meta.blade.php` (create file if not)
-````html
-<!-- resources/views/vendor/nova/partials/meta.blade.php -->
-<link rel="stylesheet" href="{{ asset('css/tailwind-colors.css') }}">
-````
+    ````html
+    <link rel="stylesheet" href="{{ asset('css/tailwind-colors.css') }}">
+    ````
 3. Customize your field:
-````php
-Badge::make('Type')
-    ->addTypes([
-        'Free' => 'bg-blue-100 text-blue-600 dark:bg-blue-600 dark:text-blue-900',
-        'Pro' => 'bg-violet-100 text-violet-600 dark:bg-violet-600 dark:text-violet-900',
-        'Premium' => 'bg-fuchsia-100 text-fuchsia-600 dark:bg-fuchsia-600 dark:text-fuchsia-900',
-    ]),
-````
-
-[//]: # (<p style="text-align: center;" align="center">)
-
-[//]: # (<img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">)
-
-[//]: # (</p>)
+    ````php
+    Badge::make('Type')
+        ->addTypes([
+            'Free' => 'bg-blue-100 text-blue-600 dark:bg-blue-600 dark:text-blue-900',
+            'Pro' => 'bg-violet-100 text-violet-600 dark:bg-violet-600 dark:text-violet-900',
+            'Premium' => 'bg-fuchsia-100 text-fuchsia-600 dark:bg-fuchsia-600 dark:text-fuchsia-900',
+        ]),
+    ````
+### Example
+<p style="text-align: center;" align="center">
+<img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
+</p>
 
 
 ### Customisation
