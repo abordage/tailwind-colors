@@ -13,7 +13,7 @@ The `/dist/tailwind-colors.css` file already contains the generated palette for 
         ->addTypes([
             'Free' => 'bg-blue-100 text-blue-600 dark:bg-blue-600 dark:text-blue-900',
             'Pro' => 'bg-violet-100 text-violet-600 dark:bg-violet-600 dark:text-violet-900',
-            'Premium' => 'bg-fuchsia-100 text-fuchsia-600 dark:bg-fuchsia-600 dark:text-fuchsia-900',
+            'Premium' => 'bg-lime-100 text-lime-600 dark:bg-lime-600 dark:text-lime-900',
         ]),
     ````
 ### Example
