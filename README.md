@@ -1,4 +1,4 @@
-# Generate color palette for Laravel Nova (or another project using tailwind.css) 
+# Full color palette for Laravel Nova (or another project using tailwind.css) 
 
 <p style="text-align: center;" align="center">
 <img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
