@@ -4,9 +4,8 @@
 <img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
 </p>
 
-The `/dist/tailwind-colors.css` file already contains the generated palette for Laravel Nova [Badge Field](https://nova.laravel.com/docs/4.0/resources/fields.html#badge-field).
-
-1. Copy `tailwind-colors.css` to public dir (e.g. `css/tailwind-colors.css`) or set your `webpack.mix.js` | `vite.config.ts` for copy
+## Usage
+1. Copy `/dist/tailwind-colors.css` to public dir (e.g. `css/tailwind-colors.css`)
 2. Include styles in a file `resources/views/vendor/nova/partials/meta.blade.php` (create file if not)
     ````html
     <link rel="stylesheet" href="{{ asset('css/tailwind-colors.css') }}">
@@ -21,7 +20,7 @@ The `/dist/tailwind-colors.css` file already contains the generated palette for 
         ]),
     ````
 
-### Customisation
+## Customisation
 1. Specify the desired colors and styles in `content-generator.php` 
 2. Run `php content-generator.php`
 3. Run  `npx tailwindcss -i ./src/input.css -o ./dist/tailwind-colors.css --minify`
