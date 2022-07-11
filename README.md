@@ -1,5 +1,9 @@
 # Generate color palette for Laravel Nova (or another project using tailwind.css) 
 
+<p style="text-align: center;" align="center">
+<img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
+</p>
+
 The `/dist/tailwind-colors.css` file already contains the generated palette for Laravel Nova [Badge Field](https://nova.laravel.com/docs/4.0/resources/fields.html#badge-field).
 
 1. Copy `tailwind-colors.css` to public dir (e.g. `css/tailwind-colors.css`) or set your `webpack.mix.js` | `vite.config.ts` for copy
@@ -16,11 +20,6 @@ The `/dist/tailwind-colors.css` file already contains the generated palette for 
             'Premium' => 'bg-lime-100 text-lime-600 dark:bg-lime-500 dark:text-lime-900',
         ]),
     ````
-### Example
-<p style="text-align: center;" align="center">
-<img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
-</p>
-
 
 ### Customisation
 1. Specify the desired colors and styles in `content-generator.php` 
