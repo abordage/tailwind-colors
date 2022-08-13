@@ -6,7 +6,7 @@
 
 <center>
 
-`/dist/tailwind-colors.css` contains all tailwind [color palette](https://tailwindcss.com/docs/customizing-colors) required for customizing laravel nova [badges](https://nova.laravel.com/docs/4.0/resources/fields.html#badge-field)
+`tailwind-colors.css` contains all tailwind [color palette](https://tailwindcss.com/docs/customizing-colors) required for customizing laravel nova [badges](https://nova.laravel.com/docs/4.0/resources/fields.html#badge-field)
 
 </center>
 
