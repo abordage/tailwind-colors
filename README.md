@@ -24,7 +24,7 @@ Badge::make('Type')
  ````
 
 ## Adding styles
-1. Specify the desired colors and styles in `content-generator.php` 
+1. Specify the required styles in `content-generator.php` 
 2. Run `php content-generator.php`
 3. Run `npx tailwindcss -i ./src/input.css -o ./dist/tailwind-colors.css --minify`
 
