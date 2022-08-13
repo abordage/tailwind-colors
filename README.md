@@ -4,11 +4,11 @@
 <img alt="Laravel Nova Badge" src="https://github.com/abordage/tailwind-colors/blob/master/docs/images/laravel-nova-badge-examples.png?raw=true">
 </p>
 
-<center>
+<p style="text-align: center;" align="center">
 
 `tailwind-colors.css` contains all tailwind [color palette](https://tailwindcss.com/docs/customizing-colors) required for customizing laravel nova [badges](https://nova.laravel.com/docs/4.0/resources/fields.html#badge-field)
 
-</center>
+</p>
 
 ## Quick start
 1. Copy `/dist/tailwind-colors.css` to public dir (e.g. `css/tailwind-colors.css`)
